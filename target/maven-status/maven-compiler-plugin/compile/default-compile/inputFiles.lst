@@ -1,5 +1,9 @@
 /home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/web/model/BeerStyleEnum.java
+/home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/domain/Beer.java
 /home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/MsscBeerServiceApplication.java
+/home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/repositories/BeerRepository.java
 /home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/web/controller/BeerController.java
 /home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/web/model/BeerDto.java
+/home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/bootstrap/BeerLoader.java
+/home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/web/controller/MvcExceptionHandler.java
 /home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/web/model/BeerPageList.java

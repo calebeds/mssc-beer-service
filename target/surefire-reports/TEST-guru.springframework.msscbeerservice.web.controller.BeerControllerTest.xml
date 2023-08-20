@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="guru.springframework.msscbeerservice.web.controller.BeerControllerTest" time="4.015" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="guru.springframework.msscbeerservice.web.controller.BeerControllerTest" time="2.56" tests="3" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/stefanini/Workspaces/java-workspace/mssc-beer-service/target/surefire/surefirebooter10009432222296300125.jar /home/stefanini/Workspaces/java-workspace/mssc-beer-service/target/surefire 2023-08-20T11-31-22_409-jvmRun1 surefire11500762134390207907tmp surefire_02500920322591111916tmp"/>
+    <property name="sun.java.command" value="/home/stefanini/Workspaces/java-workspace/mssc-beer-service/target/surefire/surefirebooter16000298831724126096.jar /home/stefanini/Workspaces/java-workspace/mssc-beer-service/target/surefire 2023-08-20T18-41-13_230-jvmRun1 surefire8097844296604477261tmp surefire_013237586325915009825tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/stefanini/Workspaces/java-workspace/mssc-beer-service/target/test-classes:/home/stefanini/Workspaces/java-workspace/mssc-beer-service/target/classes:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.1.4.RELEASE/spring-boot-starter-actuator-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter/2.1.4.RELEASE/spring-boot-starter-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.1.4.RELEASE/spring-boot-starter-logging-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/stefanini/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/stefanini/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.11.2/log4j-to-slf4j-2.11.2.jar:/home/stefanini/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/home/stefanini/.m2/repository/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.jar:/home/stefanini/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/stefanini/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.4.RELEASE/spring-boot-actuator-autoconfigure-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-actuator/2.1.4.RELEASE/spring-boot-actuator-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/home/stefanini/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/stefanini/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/home/stefanini/.m2/repository/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.8/jackson-datatype-jsr310-2.9.8.jar:/home/stefanini/.m2/repository/io/micrometer/micrometer-core/1.1.4/micrometer-core-1.1.4.jar:/home/stefanini/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar:/home/stefanini/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.1.4.RELEASE/spring-boot-starter-web-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.1.4.RELEASE/spring-boot-starter-json-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.8/jackson-datatype-jdk8-2.9.8.jar:/home/stefanini/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.8/jackson-module-parameter-names-2.9.8.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.1.4.RELEASE/spring-boot-starter-tomcat-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.17/tomcat-embed-core-9.0.17.jar:/home/stefanini/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.17/tomcat-embed-el-9.0.17.jar:/home/stefanini/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.17/tomcat-embed-websocket-9.0.17.jar:/home/stefanini/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final.jar:/home/stefanini/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/stefanini/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/home/stefanini/.m2/repository/com/fasterxml/classmate/1.4.0/classmate-1.4.0.jar:/home/stefanini/.m2/repository/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/spring-webmvc/5.1.6.RELEASE/spring-webmvc-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/spring-aop/5.1.6.RELEASE/spring-aop-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/spring-expression/5.1.6.RELEASE/spring-expression-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.1.4.RELEASE/spring-boot-starter-data-jpa-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.1.4.RELEASE/spring-boot-starter-aop-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.1.4.RELEASE/spring-boot-starter-jdbc-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar:/home/stefanini/.m2/repository/org/springframework/spring-jdbc/5.1.6.RELEASE/spring-jdbc-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/javax/transaction/javax.transaction-api/1.3/javax.transaction-api-1.3.jar:/home/stefanini/.m2/repository/org/hibernate/hibernate-core/5.3.9.Final/hibernate-core-5.3.9.Final.jar:/home/stefanini/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/stefanini/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar:/home/stefanini/.m2/repository/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar:/home/stefanini/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/stefanini/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/home/stefanini/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/stefanini/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/home/stefanini/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.4.Final/hibernate-commons-annotations-5.0.4.Final.jar:/home/stefanini/.m2/repository/org/springframework/data/spring-data-jpa/2.1.6.RELEASE/spring-data-jpa-2.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/spring-orm/5.1.6.RELEASE/spring-orm-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/spring-tx/5.1.6.RELEASE/spring-tx-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/stefanini/.m2/repository/org/springframework/spring-aspects/5.1.6.RELEASE/spring-aspects-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/com/h2database/h2/1.4.199/h2-1.4.199.jar:/home/stefanini/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/home/stefanini/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar:/home/stefanini/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-devtools/2.1.4.RELEASE/spring-boot-devtools-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.1.4.RELEASE/spring-boot-starter-test-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-test/2.1.4.RELEASE/spring-boot-test-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.1.4.RELEASE/spring-boot-test-autoconfigure-2.1.4.RELEASE.jar:/home/stefanini/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar:/home/stefanini/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar:/home/stefanini/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar:/home/stefanini/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar:/home/stefanini/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/home/stefanini/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/stefanini/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.12/byte-buddy-agent-1.9.12.jar:/home/stefanini/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/stefanini/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/stefanini/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/stefanini/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/home/stefanini/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/stefanini/.m2/repository/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/spring-jcl/5.1.6.RELEASE/spring-jcl-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/springframework/spring-test/5.1.6.RELEASE/spring-test-5.1.6.RELEASE.jar:/home/stefanini/.m2/repository/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2.jar:/home/stefanini/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar:/home/stefanini/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/stefanini/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/stefanini/.m2/repository/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar:/home/stefanini/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar:/home/stefanini/.m2/repository/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/stefanini/Workspaces/java-workspace/mssc-beer-service/target/surefire/surefirebooter10009432222296300125.jar"/>
+    <property name="surefire.real.class.path" value="/home/stefanini/Workspaces/java-workspace/mssc-beer-service/target/surefire/surefirebooter16000298831724126096.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.20+8-post-Ubuntu-1ubuntu122.04"/>
     <property name="user.name" value="stefanini"/>
@@ -45,6 +45,7 @@
     <property name="localRepository" value="/home/stefanini/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2023.2.1"/>
     <property name="java.version" value="11.0.20"/>
     <property name="user.dir" value="/home/stefanini/Workspaces/java-workspace/mssc-beer-service"/>
     <property name="os.arch" value="amd64"/>
@@ -60,7 +61,163 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="updateBeerById" classname="guru.springframework.msscbeerservice.web.controller.BeerControllerTest" time="0.384"/>
-  <testcase name="saveNewBeer" classname="guru.springframework.msscbeerservice.web.controller.BeerControllerTest" time="0.004"/>
-  <testcase name="getBeerById" classname="guru.springframework.msscbeerservice.web.controller.BeerControllerTest" time="0.012"/>
+  <testcase name="updateBeerById" classname="guru.springframework.msscbeerservice.web.controller.BeerControllerTest" time="0.401">
+    <failure message="Status expected:&lt;204&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<204> but was:<400>
+	at guru.springframework.msscbeerservice.web.controller.BeerControllerTest.updateBeerById(BeerControllerTest.java:52)
+]]></failure>
+    <system-out><![CDATA[18:41:13.978 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:41:13.990 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:41:14.009 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [guru.springframework.msscbeerservice.web.controller.BeerControllerTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+18:41:14.017 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [guru.springframework.msscbeerservice.web.controller.BeerControllerTest], using SpringBootContextLoader
+18:41:14.019 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [guru.springframework.msscbeerservice.web.controller.BeerControllerTest]: class path resource [guru/springframework/msscbeerservice/web/controller/BeerControllerTest-context.xml] does not exist
+18:41:14.020 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [guru.springframework.msscbeerservice.web.controller.BeerControllerTest]: class path resource [guru/springframework/msscbeerservice/web/controller/BeerControllerTestContext.groovy] does not exist
+18:41:14.020 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [guru.springframework.msscbeerservice.web.controller.BeerControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:41:14.021 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [guru.springframework.msscbeerservice.web.controller.BeerControllerTest]: BeerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:41:14.079 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [guru.springframework.msscbeerservice.web.controller.BeerControllerTest]
+18:41:14.124 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/stefanini/Workspaces/java-workspace/mssc-beer-service/target/classes/guru/springframework/msscbeerservice/MsscBeerServiceApplication.class]
+18:41:14.124 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration guru.springframework.msscbeerservice.MsscBeerServiceApplication for test class guru.springframework.msscbeerservice.web.controller.BeerControllerTest
+18:41:14.125 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [guru.springframework.msscbeerservice.web.controller.BeerControllerTest]: using defaults.
+18:41:14.125 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:41:14.134 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5afa3c9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@72035809, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@909217e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@18271936, org.springframework.test.context.support.DirtiesContextTestExecutionListener@606e4010, org.springframework.test.context.transaction.TransactionalTestExecutionListener@8458f04, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@48075da3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68c9133c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7a35b0f5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5e2c3d18, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2cb4893b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@cc43f62]
+18:41:14.137 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1750fbeb testClass = BeerControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5b247367 testClass = BeerControllerTest, locations = '{}', classes = '{class guru.springframework.msscbeerservice.MsscBeerServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@268f106e key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@57250572, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@17a7f733, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@186f8716, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@315a0006, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@68df3bf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@49dc7102], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+18:41:14.142 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@1750fbeb testClass = BeerControllerTest, testInstance = guru.springframework.msscbeerservice.web.controller.BeerControllerTest@17fc391b, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5b247367 testClass = BeerControllerTest, locations = '{}', classes = '{class guru.springframework.msscbeerservice.MsscBeerServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@268f106e key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@57250572, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@17a7f733, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@186f8716, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@315a0006, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@68df3bf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@49dc7102], resourceBasePath = '', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+18:41:14.232 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.4.RELEASE)
+
+2023-08-20 18:41:14.479  INFO 58527 --- [           main] g.s.m.web.controller.BeerControllerTest  : Starting BeerControllerTest on stefanini with PID 58527 (started by stefanini in /home/stefanini/Workspaces/java-workspace/mssc-beer-service)
+2023-08-20 18:41:14.483  INFO 58527 --- [           main] g.s.m.web.controller.BeerControllerTest  : No active profile set, falling back to default profiles: default
+2023-08-20 18:41:15.762  INFO 58527 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-20 18:41:16.002  INFO 58527 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-08-20 18:41:16.003  INFO 58527 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-08-20 18:41:16.016  INFO 58527 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 13 ms
+2023-08-20 18:41:16.051  INFO 58527 --- [           main] g.s.m.web.controller.BeerControllerTest  : Started BeerControllerTest in 1.812 seconds (JVM running for 2.6)
+2023-08-20 18:41:16.437  WARN 58527 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity guru.springframework.msscbeerservice.web.controller.BeerController.updateBeerById(java.util.UUID,guru.springframework.msscbeerservice.web.model.BeerDto) with 4 errors: [Field error in object 'beerDto' on field 'beerStyle': rejected value [null]; codes [NotNull.beerDto.beerStyle,NotNull.beerStyle,NotNull.guru.springframework.msscbeerservice.web.model.BeerStyleEnum,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.beerStyle,beerStyle]; arguments []; default message [beerStyle]]; default message [must not be null]] [Field error in object 'beerDto' on field 'price': rejected value [null]; codes [NotNull.beerDto.price,NotNull.price,NotNull.java.math.BigDecimal,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.price,price]; arguments []; default message [price]]; default message [must not be null]] [Field error in object 'beerDto' on field 'beerName': rejected value [null]; codes [NotBlank.beerDto.beerName,NotBlank.beerName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.beerName,beerName]; arguments []; default message [beerName]]; default message [must not be blank]] [Field error in object 'beerDto' on field 'upc': rejected value [null]; codes [NotNull.beerDto.upc,NotNull.upc,NotNull.java.lang.Long,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.upc,upc]; arguments []; default message [upc]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /api/v1/beer/8f5a2d98-b783-484d-9b2c-dd3338b946a1
+       Parameters = {}
+          Headers = [Content-Type:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = guru.springframework.msscbeerservice.web.controller.BeerController
+           Method = public org.springframework.http.ResponseEntity guru.springframework.msscbeerservice.web.controller.BeerController.updateBeerById(java.util.UUID,guru.springframework.msscbeerservice.web.model.BeerDto)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="saveNewBeer" classname="guru.springframework.msscbeerservice.web.controller.BeerControllerTest" time="0.008">
+    <failure message="Status expected:&lt;201&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<400>
+	at guru.springframework.msscbeerservice.web.controller.BeerControllerTest.saveNewBeer(BeerControllerTest.java:41)
+]]></failure>
+    <system-out><![CDATA[2023-08-20 18:41:16.464  WARN 58527 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity guru.springframework.msscbeerservice.web.controller.BeerController.saveNewBeer(guru.springframework.msscbeerservice.web.model.BeerDto) with 4 errors: [Field error in object 'beerDto' on field 'beerStyle': rejected value [null]; codes [NotNull.beerDto.beerStyle,NotNull.beerStyle,NotNull.guru.springframework.msscbeerservice.web.model.BeerStyleEnum,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.beerStyle,beerStyle]; arguments []; default message [beerStyle]]; default message [must not be null]] [Field error in object 'beerDto' on field 'price': rejected value [null]; codes [NotNull.beerDto.price,NotNull.price,NotNull.java.math.BigDecimal,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.price,price]; arguments []; default message [price]]; default message [must not be null]] [Field error in object 'beerDto' on field 'beerName': rejected value [null]; codes [NotBlank.beerDto.beerName,NotBlank.beerName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.beerName,beerName]; arguments []; default message [beerName]]; default message [must not be blank]] [Field error in object 'beerDto' on field 'upc': rejected value [null]; codes [NotNull.beerDto.upc,NotNull.upc,NotNull.java.lang.Long,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [beerDto.upc,upc]; arguments []; default message [upc]]; default message [must not be null]] ]
+
+MockHttpServletRequest:
+      HTTP Method = PUT
+      Request URI = /api/v1/beer/8f5a2d98-b783-484d-9b2c-dd3338b946a1
+       Parameters = {}
+          Headers = [Content-Type:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = guru.springframework.msscbeerservice.web.controller.BeerController
+           Method = public org.springframework.http.ResponseEntity guru.springframework.msscbeerservice.web.controller.BeerController.updateBeerById(java.util.UUID,guru.springframework.msscbeerservice.web.model.BeerDto)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/beer/
+       Parameters = {}
+          Headers = [Content-Type:"application/json"]
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = guru.springframework.msscbeerservice.web.controller.BeerController
+           Method = public org.springframework.http.ResponseEntity guru.springframework.msscbeerservice.web.controller.BeerController.saveNewBeer(guru.springframework.msscbeerservice.web.model.BeerDto)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = org.springframework.web.bind.MethodArgumentNotValidException
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 400
+    Error message = null
+          Headers = []
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  </testcase>
+  <testcase name="getBeerById" classname="guru.springframework.msscbeerservice.web.controller.BeerControllerTest" time="0.018"/>
 </testsuite>

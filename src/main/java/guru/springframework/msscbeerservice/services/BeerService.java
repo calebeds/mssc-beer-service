@@ -8,7 +8,8 @@ import org.springframework.data.domain.PageRequest;
 import java.util.UUID;
 
 public interface BeerService {
-    BeerDto getBeerBy(UUID beerId, Boolean showInventoryOnHand);
+    BeerDto getBeerById(UUID beerId, Boolean showInventoryOnHand);
+    BeerDto getBeerByUpc(String upc, Boolean showInventoryOnHand);
 
     BeerDto saveNewBeer(BeerDto beerDto);
 

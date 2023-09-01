@@ -6,6 +6,7 @@
     </service>
 
     <cache alias="beerCache" usesTemplate="config-cache" />
+    <cache alias="beerUpcCache" usesTemplate="config-cache" />
     <cache alias="beerListCache" usesTemlate="config-cache" />
 
     <cache-template>

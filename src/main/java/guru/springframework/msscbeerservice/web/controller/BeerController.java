@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.UUID;
 
 @RequiredArgsConstructor
-@RequestMapping("/api/v1/beer")
+@RequestMapping("/api/v1")
 @RestController
 public class BeerController {
 
@@ -23,7 +23,7 @@ public class BeerController {
 
     private final BeerService beerService;
 
-    @GetMapping(produces = {"application/json"})
+    @GetMapping(produces = {"application/json"}, path = "beer")
     public ResponseEntity<BeerPageList> listBeers (
             @RequestParam(value = "pageNumber", required = false) Integer pageNumber,
             @RequestParam(value = "pageSize", required = false) Integer pageSize,
@@ -49,7 +49,7 @@ public class BeerController {
 
     }
 
-    @GetMapping("/{beerId}")
+    @GetMapping("beer/{beerId}")
     public ResponseEntity<BeerDto> getBeerById(
             @PathVariable UUID beerId,
             @RequestParam(value = "showInventoryOnHand", required = false) Boolean showInventoryOnHand
@@ -58,16 +58,28 @@ public class BeerController {
             showInventoryOnHand = false;
         }
 
-        return new ResponseEntity<>(beerService.getBeerBy(beerId, showInventoryOnHand), HttpStatus.OK);
+        return new ResponseEntity<>(beerService.getBeerById(beerId, showInventoryOnHand), HttpStatus.OK);
     }
 
-    @PostMapping
+    @GetMapping("beerUpc/{upc}")
+    public ResponseEntity<BeerDto> getBeerByUpc(
+            @PathVariable String upc,
+            @RequestParam(value = "showInventoryOnHand", required = false) Boolean showInventoryOnHand
+    ) {
+        if(showInventoryOnHand == null) {
+            showInventoryOnHand = false;
+        }
+
+        return new ResponseEntity<>(beerService.getBeerByUpc(upc, showInventoryOnHand), HttpStatus.OK);
+    }
+
+    @PostMapping("beer")
     public ResponseEntity saveNewBeer(@Validated @RequestBody BeerDto beerDto) {
 
         return new ResponseEntity<>(beerService.saveNewBeer(beerDto), HttpStatus.CREATED);
     }
 
-    @PutMapping("/{beerId}")
+    @PutMapping("beer/{beerId}")
     public ResponseEntity updateBeerById(@PathVariable UUID beerId, @RequestBody @Validated BeerDto beerDto) {
         return new ResponseEntity(beerService.updateBeer(beerId, beerDto), HttpStatus.NO_CONTENT);
     }

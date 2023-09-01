@@ -54,6 +54,10 @@ public class BeerController {
             @PathVariable UUID beerId,
             @RequestParam(value = "showInventoryOnHand", required = false) Boolean showInventoryOnHand
     ) {
+        if(showInventoryOnHand == null) {
+            showInventoryOnHand = false;
+        }
+
         return new ResponseEntity<>(beerService.getBeerBy(beerId, showInventoryOnHand), HttpStatus.OK);
     }
 

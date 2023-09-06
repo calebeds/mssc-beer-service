@@ -44,7 +44,7 @@ class BeerControllerTest {
     void getBeerByUpc() throws Exception {
         given(beerService.getBeerByUpc(any(), any())).willReturn(getValidBeerDto());
 
-        mockMvc.perform(get("/api/v1/beer/beerUpc/" + BeerLoader.BEER_1_UPC).accept(MediaType.APPLICATION_JSON))
+        mockMvc.perform(get("/api/v1/beerUpc/" + BeerLoader.BEER_1_UPC).accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk());
     }
 

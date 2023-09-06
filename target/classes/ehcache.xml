@@ -1,15 +1,15 @@
 <config
-    xmlns:jsr107='http://www.ehcache.org/v3/jsr107'
-    xmlns='http://www.ehcache.org/v3'>
+        xmlns:jsr107='http://www.ehcache.org/v3/jsr107'
+        xmlns='http://www.ehcache.org/v3'>
     <service>
-        <jsr107:defaults enable-management="true" enable-statistic="true" />
+        <jsr107:defaults enable-management="true" enable-statistics="true"/>
     </service>
 
-    <cache alias="beerCache" usesTemplate="config-cache" />
-    <cache alias="beerUpcCache" usesTemplate="config-cache" />
-    <cache alias="beerListCache" usesTemlate="config-cache" />
+    <cache alias="beerCache" uses-template="config-cache"/>
+    <cache alias="beerUpcCache" uses-template="config-cache"/>
+    <cache alias="beerListCache" uses-template="config-cache"/>
 
-    <cache-template>
+    <cache-template name="config-cache">
         <expiry>
             <ttl unit="minutes">5</ttl>
         </expiry>

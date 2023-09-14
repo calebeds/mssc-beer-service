@@ -1,3 +1,3 @@
-/home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/test/java/guru/springframework/msscbeerservice/MsscBeerServiceApplicationTests.java
-/home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/test/java/guru/springframework/msscbeerservice/services/inventory/BeerInventoryServiceRestTemplateImplTest.java
-/home/stefanini/Workspaces/java-workspace/mssc-beer-service/src/test/java/guru/springframework/msscbeerservice/web/controller/BeerControllerTest.java
+/home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/test/java/guru/springframework/msscbeerservice/services/inventory/BeerInventoryServiceRestTemplateImplTest.java
+/home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/test/java/guru/springframework/msscbeerservice/MsscBeerServiceApplicationTests.java
+/home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/test/java/guru/springframework/msscbeerservice/web/controller/BeerControllerTest.java

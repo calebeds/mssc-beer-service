@@ -2,30 +2,62 @@
 
 import guru.springframework.msscbeerservice.domain.Beer;
 import guru.springframework.msscbeerservice.repositories.BeerRepository;
+import guru.springframework.msscbeerservice.web.model.BeerStyleEnum;
+import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.util.UUID;
 
-//@Component
+<span class="fc" id="L13">@RequiredArgsConstructor</span>
+@Component
 public class BeerLoader implements CommandLineRunner {
     public static final String BEER_1_UPC = &quot;0631234200036&quot;;
     public static final String BEER_2_UPC = &quot;0631234300019&quot;;
     public static final String BEER_3_UPC = &quot;0083783375213&quot;;
-<span class="nc" id="L16">    public static final UUID BEER_1_UUID = UUID.fromString(&quot;0a818933-087d-47f2-ad83-2f986ed087eb&quot;);</span>
-<span class="nc" id="L17">    public static final UUID BEER_2_UUID = UUID.fromString(&quot;a712d914-61ea-4623-8bd0-32c0f6545bfd&quot;);</span>
-<span class="nc" id="L18">    public static final UUID BEER_3_UUID = UUID.fromString(&quot;026cc3c8-3a0c-4083-a05b-e908048c1b08&quot;);</span>
+
 
     private final BeerRepository beerRepository;
 
-<span class="nc" id="L22">    public BeerLoader(BeerRepository beerRepository) {</span>
-<span class="nc" id="L23">        this.beerRepository = beerRepository;</span>
-<span class="nc" id="L24">    }</span>
-
     @Override
     public void run(String... args) throws Exception {
+<span class="pc bpc" id="L25" title="1 of 2 branches missed.">        if(beerRepository.count() == 0) {</span>
+<span class="nc" id="L26">            loadBeerObjects();</span>
+        }
+<span class="fc" id="L28">    }</span>
 
-<span class="nc" id="L29">    }</span>
+    private void loadBeerObjects() {
+<span class="nc" id="L31">        Beer b1 = Beer.builder()</span>
+<span class="nc" id="L32">                .beerName(&quot;Mango Bobs&quot;)</span>
+<span class="nc" id="L33">                .beerStyle(BeerStyleEnum.IPA.name())</span>
+<span class="nc" id="L34">                .minOnHand(12)</span>
+<span class="nc" id="L35">                .quantityToBrew(200)</span>
+<span class="nc" id="L36">                .price(new BigDecimal(&quot;12.95&quot;))</span>
+<span class="nc" id="L37">                .upc(BEER_1_UPC)</span>
+<span class="nc" id="L38">                .build();</span>
+
+<span class="nc" id="L40">        Beer b2 = Beer.builder()</span>
+<span class="nc" id="L41">                .beerName(&quot;Galaxy Cat&quot;)</span>
+<span class="nc" id="L42">                .beerStyle(BeerStyleEnum.PALE_ALE.name())</span>
+<span class="nc" id="L43">                .minOnHand(12)</span>
+<span class="nc" id="L44">                .quantityToBrew(200)</span>
+<span class="nc" id="L45">                .price(new BigDecimal(&quot;12.95&quot;))</span>
+<span class="nc" id="L46">                .upc(BEER_2_UPC)</span>
+<span class="nc" id="L47">                .build();</span>
+
+<span class="nc" id="L49">        Beer b3 = Beer.builder()</span>
+<span class="nc" id="L50">                .beerName(&quot;Pinball Porter&quot;)</span>
+<span class="nc" id="L51">                .beerStyle(BeerStyleEnum.PALE_ALE.name())</span>
+<span class="nc" id="L52">                .minOnHand(12)</span>
+<span class="nc" id="L53">                .quantityToBrew(200)</span>
+<span class="nc" id="L54">                .price(new BigDecimal(&quot;12.95&quot;))</span>
+<span class="nc" id="L55">                .upc(BEER_3_UPC)</span>
+<span class="nc" id="L56">                .build();</span>
+
+<span class="nc" id="L58">        beerRepository.save(b1);</span>
+<span class="nc" id="L59">        beerRepository.save(b2);</span>
+<span class="nc" id="L60">        beerRepository.save(b3);</span>
+<span class="nc" id="L61">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

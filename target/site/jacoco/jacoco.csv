@@ -3,6 +3,7 @@ mssc-beer-service,guru.springframework.msscbeerservice.web.mappers,DateMapper,34
 mssc-beer-service,guru.springframework.msscbeerservice.web.mappers,BeerMapperDecorator,24,11,0,0,5,5,3,3,3,3
 mssc-beer-service,guru.springframework.msscbeerservice.web.mappers,BeerMapperImpl,0,3,0,0,0,1,0,1,0,1
 mssc-beer-service,guru.springframework.msscbeerservice.web.mappers,BeerMapperImpl_,196,3,18,0,42,1,12,1,3,1
+mssc-beer-service,guru.springframework.msscbeerservice.config,JmsConfig,0,15,0,0,0,5,0,2,0,2
 mssc-beer-service,guru.springframework.msscbeerservice.config,CacheConfig,0,3,0,0,0,1,0,1,0,1
 mssc-beer-service,guru.springframework.msscbeerservice.domain,Beer,107,3,0,0,13,1,22,1,22,1
 mssc-beer-service,guru.springframework.msscbeerservice.domain,Beer.BeerBuilder,99,0,0,0,1,0,13,0,13,0
@@ -17,6 +18,6 @@ mssc-beer-service,guru.springframework.msscbeerservice.services.inventory.model,
 mssc-beer-service,guru.springframework.msscbeerservice.web.controller,BeerController,38,62,12,2,8,11,8,6,1,6
 mssc-beer-service,guru.springframework.msscbeerservice.web.controller,NotFoundException,3,0,0,0,1,0,1,0,1,0
 mssc-beer-service,guru.springframework.msscbeerservice.web.controller,MvcExceptionHandler,24,3,0,0,3,1,2,1,2,1
-mssc-beer-service,guru.springframework.msscbeerservice.bootstrap,BeerLoader,17,0,0,0,7,0,3,0,3,0
+mssc-beer-service,guru.springframework.msscbeerservice.bootstrap,BeerLoader,81,13,1,1,29,3,2,2,1,2
 mssc-beer-service,guru.springframework.msscbeerservice.services.inventory,BeerInventoryServiceRestTemplateImpl.new ParameterizedTypeReference() {...},6,0,0,0,1,0,1,0,1,0
 mssc-beer-service,guru.springframework.msscbeerservice.services.inventory,BeerInventoryServiceRestTemplateImpl,35,18,0,0,8,7,1,3,1,3

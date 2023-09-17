@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-09-14T10:47:06-0300",
+    date = "2023-09-17T13:53:00-0300",
     comments = "version: 1.3.0.Final, compiler: javac, environment: Java 11.0.20.1 (Ubuntu)"
 )
 @Component
@@ -71,25 +71,25 @@ public class BeerMapperImpl_ implements BeerMapper {
     }
 
     @Override
-    public Beer beerDtoToBeer(BeerDto beerDto) {
-        if ( beerDto == null ) {
+    public Beer beerDtoToBeer(BeerDto dto) {
+        if ( dto == null ) {
             return null;
         }
 
         BeerBuilder beer = Beer.builder();
 
-        beer.id( beerDto.getId() );
-        if ( beerDto.getVersion() != null ) {
-            beer.version( beerDto.getVersion().longValue() );
+        beer.id( dto.getId() );
+        if ( dto.getVersion() != null ) {
+            beer.version( dto.getVersion().longValue() );
         }
-        beer.createdDate( dateMapper.asTimestamp( beerDto.getCreatedDate() ) );
-        beer.lastModifiedDate( dateMapper.asTimestamp( beerDto.getLastModifiedDate() ) );
-        beer.beerName( beerDto.getBeerName() );
-        if ( beerDto.getBeerStyle() != null ) {
-            beer.beerStyle( beerDto.getBeerStyle().name() );
+        beer.createdDate( dateMapper.asTimestamp( dto.getCreatedDate() ) );
+        beer.lastModifiedDate( dateMapper.asTimestamp( dto.getLastModifiedDate() ) );
+        beer.beerName( dto.getBeerName() );
+        if ( dto.getBeerStyle() != null ) {
+            beer.beerStyle( dto.getBeerStyle().name() );
         }
-        beer.upc( beerDto.getUpc() );
-        beer.price( beerDto.getPrice() );
+        beer.upc( dto.getUpc() );
+        beer.price( dto.getPrice() );
 
         return beer.build();
     }

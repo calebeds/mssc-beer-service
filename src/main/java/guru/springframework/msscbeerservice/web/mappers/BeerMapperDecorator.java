@@ -15,8 +15,8 @@ public abstract class BeerMapperDecorator implements BeerMapper {
     }
 
     @Autowired
-    public void setMapper(BeerMapper beerMapper) {
-        this.mapper = beerMapper;
+    public void setMapper(BeerMapper mapper) {
+        this.mapper = mapper;
     }
 
     @Override

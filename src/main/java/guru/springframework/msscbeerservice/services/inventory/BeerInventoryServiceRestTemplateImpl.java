@@ -14,10 +14,14 @@ import java.util.List;
 import java.util.Objects;
 import java.util.UUID;
 
+/**
+ * Created by jt on 2019-06-07.
+ */
 @Slf4j
 @ConfigurationProperties(prefix = "sfg.brewery", ignoreUnknownFields = false)
 @Component
 public class BeerInventoryServiceRestTemplateImpl implements BeerInventoryService {
+
     private final String INVENTORY_PATH = "/api/v1/beer/{beerId}/inventory";
     private final RestTemplate restTemplate;
 
@@ -33,13 +37,12 @@ public class BeerInventoryServiceRestTemplateImpl implements BeerInventoryServic
 
     @Override
     public Integer getOnhandInventory(UUID beerId) {
+
         log.debug("Calling Inventory Service");
 
         ResponseEntity<List<BeerInventoryDto>> responseEntity = restTemplate
                 .exchange(beerInventoryServiceHost + INVENTORY_PATH, HttpMethod.GET, null,
-                        new ParameterizedTypeReference<List<BeerInventoryDto>>() {},
-                        (Object) beerId
-                );
+                        new ParameterizedTypeReference<List<BeerInventoryDto>>(){}, (Object) beerId);
 
         //sum from inventory list
         Integer onHand = Objects.requireNonNull(responseEntity.getBody())

@@ -16,6 +16,7 @@ guru/springframework/msscbeerservice/services/inventory/BeerInventoryServiceRest
 guru/springframework/msscbeerservice/config/CacheConfig.class
 guru/sfg/brewery/model/events/ValidateOrderRequest$ValidateOrderRequestBuilder.class
 guru/sfg/brewery/model/BeerDto.class
+guru/springframework/msscbeerservice/config/LocalDiscovery.class
 guru/springframework/msscbeerservice/MsscBeerServiceApplication.class
 guru/springframework/msscbeerservice/web/controller/MvcExceptionHandler.class
 guru/springframework/msscbeerservice/services/inventory/BeerInventoryServiceRestTemplateImpl.class

@@ -13,6 +13,7 @@
 /home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/bootstrap/BeerLoader.java
 /home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/web/mappers/DateMapper.java
 /home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/repositories/BeerRepository.java
+/home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/config/FeignClientConfig.java
 /home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/config/LocalDiscovery.java
 /home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/main/java/guru/springframework/msscbeerservice/web/mappers/BeerMapperDecorator.java
 /home/stefanini/Workspaces/java-workspace/mssc-brewery-ws/mssc-beer-service/src/main/java/guru/sfg/brewery/model/events/ValidateOrderResult.java
